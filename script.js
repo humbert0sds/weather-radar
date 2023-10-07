@@ -16,7 +16,7 @@
     const city = cidade;
 
     apiKey = '8c709e30b79cbf7872f0ba9e29af2650'
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=pt`)
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=pt`)
 
     const data = await response.json()
 
